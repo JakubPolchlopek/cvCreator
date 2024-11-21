@@ -1,0 +1,8 @@
+//importing base files
+@use './base/mixin';
+@use './base/reset';
+@use './base/typography';
+@use './base/variables';
+
+//importing components styles
+@use './components/buttons'

@@ -1,0 +1,16 @@
+@mixin flexPlacement($direction: row, $mainAxis: center, $crossAxis: center){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $mainAxis;
+    align-items: $crossAxis;
+}
+
+@mixin flexItem($grow, $shrink, $basis){
+    flex-grow: $grow;
+    flex-shrink: $shrink;
+    flex-basis: $basis;
+}
+
+@mixin transiton($properties: all, $duration: 0.3s, $timing: ease-in-out){
+    transition: $properties $duration $timing;
+}
