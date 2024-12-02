@@ -5,4 +5,15 @@
 @use './base/variables';
 
 //importing components styles
-@use './components/buttons'
+@use './components/buttons';
+@use './components/links';
+@use './components/images';
+
+//importing layouts styles
+@use './layout/header';
+@use './layout/formContainer';
+@use './layout/introContainer';
+
+main {
+    margin-top: 15dvh;
+}

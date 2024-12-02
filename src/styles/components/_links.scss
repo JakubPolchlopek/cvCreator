@@ -1,0 +1,14 @@
+@use '../base/mixin' as mixins;
+
+a:hover {
+    cursor: pointer;
+}
+
+a:hover::after {
+    content: '';
+    height: 1px;
+    background-color: black;
+    width: 100%;
+    display: block;
+    @include mixins.transiton();
+}
